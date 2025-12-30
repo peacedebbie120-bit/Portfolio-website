@@ -1,0 +1,90 @@
+.hero-img{
+    align-items: center;
+    width: 245px;
+    border-radius: 47%;
+    height: 100;
+    object-fit: fill;
+    box-shadow: 0 8px 12px rgb(1, 1, 17)
+    
+
+}
+body{
+    background-color:white;
+    margin: 0;
+    font-family: cursive;
+}
+
+
+footer{
+    background-color: whitesmoke;
+}
+
+.navibar{
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 15px 40px;
+    justify-content: space-between;
+}
+
+.logo{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color:black;
+    font: size 16px;
+}
+.nav-links a:hover{
+    color: blue;
+}
+.footer-section{
+    background-color: antiquewhite;
+    color: black;
+    text-align:center;
+    padding: 15px 0px;
+
+}
+.section{
+    color:black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.hero-section p{
+
+    font-size: 18px;
+    color: black;
+margin: 0;
+align-items: center;
+}
+.socials{
+    display: flex;
+    gap: 40px;
+
+}
+   .socials{
+    text-decoration: none;
+    font-weight: bold;
+   }
+    
+   .section{
+    margin: 1rem 0;
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 1s ease;
+   }
+.section--visible{
+    transform: translateY(0);
+    opacity: 1;
+}
+
